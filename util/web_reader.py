@@ -1,10 +1,10 @@
 import urllib
 
-#link = "http://vasquezmartinezagustin.bitbucket.org/lecturas/pequenio_frances.html"
-link = "http://www.thehelloworldprogram.com/es/python-es/por-que-python-deberia-ser-el-primer-lenguaje-de-programacion-que-aprendas/"
+link = "http://vasquezmartinezagustin.bitbucket.org/lecturas/pequenio_frances.html"
+# link = "http://www.thehelloworldprogram.com/es/python-es/por-que-python-deberia-ser-el-primer-lenguaje-de-programacion-que-aprendas/"
 f = urllib.urlopen(link) #file handler
 contador = 0
-palabra_a_buscar = "impresionante"
+palabra_a_buscar = "baronet"
 
 #use this method, return an array with every line read
 lines = f.readlines() #este metodo lee por linea y las devuelve en un arreglo
